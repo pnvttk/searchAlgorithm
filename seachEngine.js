@@ -64,6 +64,7 @@ const comparator = (target, midOfArr) => {
          * * if target < midOfArr -> return negative value
          * * if target > midOfArr -> return positive value
          * * if target = midOfArr -> return zero
+         * * https://www.tutorialspoint.com/javascript/string_localecompare.htm
         */
         return target.id - midOfArr.id
 
